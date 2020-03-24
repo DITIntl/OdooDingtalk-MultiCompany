@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+
+    <record model="ir.module.category" id="main_groups">
+        <field name="name">钉钉集成应用</field>
+        <field name="visible" eval="0"/>
+    </record>
+
+    <record id="manage_groups" model="res.groups">
+        <field name="name">管理员</field>
+        <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+        <field name="category_id" ref="dingtalk_mc.main_groups"/>
+        <field name="users" eval="[(4, ref('base.user_admin'))]"/>
+    </record>
+
+</odoo>
