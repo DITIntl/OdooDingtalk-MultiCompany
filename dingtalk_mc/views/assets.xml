@@ -8,6 +8,8 @@
 
     <menuitem name="联系人" id="partner_menu" parent="root_menu" sequence="6"/>
 
+    <menuitem name="钉钉回调" id="callback_menu" parent="root_menu" sequence="50"/>
+
     <menuitem name="配置" id="config_menu" parent="root_menu" sequence="99"/>
 
 

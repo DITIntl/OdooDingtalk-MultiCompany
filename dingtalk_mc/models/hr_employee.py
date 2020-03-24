@@ -51,7 +51,6 @@ class HrEmployee(models.Model):
         :return:
         """
         for res in self:
-            print(res.name)
             client = dt.get_client(self, dt.get_dingtalk_config(self, res.company_id))
             # 获取部门ding_id
             department_list = list()

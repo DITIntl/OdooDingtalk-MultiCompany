@@ -15,13 +15,15 @@
         'security/res_groups.xml',
         'security/ir.model.access.csv',
         'security/ir_rule.xml',
-        # 'data/ir_cron.xml',
-        'wizard/synchronous.xml',
-
+        'data/default_callback_list.xml',
         'views/assets.xml',
+        'wizard/synchronous.xml',
+        'wizard/callback_get.xml',
+
         'views/dingtalk_config.xml',
         'views/hr_department.xml',
         'views/hr_employee.xml',
         'views/res_partner.xml',
+        'views/callback_manage.xml',
     ],
 }
